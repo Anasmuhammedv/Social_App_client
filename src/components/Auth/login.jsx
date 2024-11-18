@@ -27,7 +27,7 @@ export default function LoginPage() {
 
     try {
       // Sending a GET request to the server for email/password login
-      const response = await axios.get('http://localhost:4000/api/auth/account', {
+      const response = await axios.get('https://social-media-app-inm8.onrender.com/api/auth/account', {
         params: {
           email: email,
           password: password
