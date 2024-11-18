@@ -30,7 +30,7 @@ export default function Users_SignUpForm() {
 
     try {
       // Send the user registration data to the backend
-      const response = await axios.post('http://localhost:4000/api/auth/account', {
+      const response = await axios.post('https://social-media-app-inm8.onrender.com/api/auth/account', {
         name: data.name,
         email: data.email,
         password: data.password
