@@ -30,7 +30,7 @@ function CreatePost() {
     formData.append('image', image);
   
     try {
-      const response = await axios.post(`http://localhost:4000/api/post/${id}`, formData, {
+      const response = await axios.post(`https://social-media-app-inm8.onrender.com/api/post/${id}`, formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
           'Authorization': `Bearer ${token}`
