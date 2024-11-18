@@ -3,7 +3,7 @@ import axios from 'axios';
 import {jwtDecode} from 'jwt-decode';
 
 const api = axios.create({
-  baseURL: 'http://localhost:4000',
+  baseURL: 'https://social-media-app-inm8.onrender.com',
   headers: { 'Content-Type': 'application/json' }
 });
 
