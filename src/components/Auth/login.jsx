@@ -11,7 +11,7 @@ export default function LoginPage() {
 
   const handle_google = () => {
     // Redirecting to Google login
-    window.location.href = "http://localhost:4000/api/auth/google/student";
+    window.location.href = "https://social-media-app-inm8.onrender.com/api/auth/google/student";
   };
 
   // Logging user state after it updates
