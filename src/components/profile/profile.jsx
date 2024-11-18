@@ -13,7 +13,7 @@ const ProfilePage = () => {
   useEffect(() => {
     const fetchUserPosts = async () => {
       try {
-        const res = await axios.get(`http://localhost:4000/api/post/${id}`, {
+        const res = await axios.get(`https://social-media-app-inm8.onrender.com/api/post/${id}`, {
           headers: {
             Authorization: `Bearer ${token}`,
           },
